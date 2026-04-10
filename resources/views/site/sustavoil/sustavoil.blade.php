@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="uz">
 
 <head>
   <meta name="robots" content="noindex">
@@ -10,9 +10,6 @@
   <title> «СУСТАВ ОИЛ» </title>
   <link type="image/png" rel="shortcut icon" href="{{ asset('site/sustavoil/img/favicon.png') }}">
   <link rel="stylesheet" id="contact-form-7-css" href="{{ asset('site/sustavoil/css/styles.css') }}" media="all">
-  <link rel="stylesheet" id="cookielawinfo-style-css" href="{{ asset('site/sustavoil/css/cli-style.css') }}" media="all">
-  <link rel="stylesheet" id="rs-plugin-settings-css" href="{{ asset('site/sustavoil/css/settings.css') }}" media="all">
-  <link rel="stylesheet" id="wpml-menu-item-0-css" href="{{ asset('site/sustavoil/css/style.css') }}" media="all">
   <link rel="stylesheet" id="mfn-base-css" href="{{ asset('site/sustavoil/css/base.css') }}" media="all">
   <link rel="stylesheet" id="mfn-layout-css" href="{{ asset('site/sustavoil/css/layout.css') }}" media="all">
   <link rel="stylesheet" id="mfn-responsive-css" href="{{ asset('site/sustavoil/css/responsive.css') }}" media="all">
@@ -100,19 +97,6 @@
   </script>
 
   <script src="{{ asset('site/sustavoil/js/door.js') }}" type="text/javascript" defer=""></script>
-  <script src="{{ asset('site/sustavoil/js/custom-functions2.min.js') }}" type="text/javascript" defer=""></script>
-
-  <script>
-    $(function () {
-
-      KMA.checkAndSetCountryField(country);
-
-      KMA.changeDataCountry(country);
-      KMA.changeDataNotCountry(country);
-      KMA.validateAndSendForm(isJsonEnable, KMAText);
-
-    });
-  </script>
 
 
 </head>
@@ -128,13 +112,13 @@
             <div class="top_bar_left clearfix">
 
               <div class="menu">
-                <a href="#form" class="menu__item">Тақдимот</a>
-                <a href="#form" class="menu__item">Архив</a>
-                <a href="#form" class="menu__item">Овқатланиш қоидалари</a>
-                <a href="#form" class="menu__item menu__item--active">Дори ва қўшимчалар</a>
-                <a href="#form" class="menu__item">Патент</a>
-                <a href="#form" class="menu__item">Янгиликлар</a>
-                <a href="#form" class="menu__item">Танишув</a>
+                <a href="#formaa" class="menu__item">Тақдимот</a>
+                <a href="#formaa" class="menu__item">Архив</a>
+                <a href="#formaa" class="menu__item">Овқатланиш қоидалари</a>
+                <a href="#formaa" class="menu__item menu__item--active">Дори ва қўшимчалар</a>
+                <a href="#formaa" class="menu__item">Патент</a>
+                <a href="#formaa" class="menu__item">Янгиликлар</a>
+                <a href="#formaa" class="menu__item">Танишув</a>
               </div>
             </div>
           </div>
@@ -372,7 +356,7 @@
             </div>
             <div class="wrap" style="display:flex;background-color:#f3f3f3;">
               <div class="wrap__m"
-                style="width:50%;background-color:#f3f3f3;display:flex;justify-content:center;align-items:center;padding: 10px;">
+                style="width:39%;background-color:#f3f3f3;display:flex;justify-content:center;align-items:center;padding: 10px;">
                 <img alt="" src="{{ asset('site/sustavoil/img/pic1.jpg') }}" style="max-width:100%" width="330">
               </div>
               <div class="wrap__m" style="width:50%">
@@ -415,7 +399,7 @@
 
             <div class="productsale">
 
-              <div class="door__wrapper"  style="margin: 3% 0px;">
+              <div class="door__wrapper"  id="formaa" style="margin: 3% 0px;">
                 <h2 class="door__title">
                   АКЦИЯ ҚАЙСИ ЭШИК ОРТИДА ТУРГАНИНИ ТАХМИН ҚИЛИНГ
                 </h2>
@@ -514,7 +498,7 @@
                   </div>
 
                   <div class="comments__wrap">
-                    <p class="lt86">Бу мойни ишлаб чиқарган одамга раҳмат! <span class="price_land_discount">0</span>%
+                    <p class="lt86">Бу мойни ишлаб чиқарган одамга раҳмат! <span class="price_land_discount">90</span>%
                       чегирма билан буюртма бердим, фойдаланишни бошлашни интиқиб кутяпман! Тиззам қаттиқ оғрийди.
                       Дугонам
                       шу мойга буюртма берди ва оғриқлар тўхтади, деяпти!
@@ -538,7 +522,8 @@
                       бўлсам-да, жияним билан бирга жисмоний машқлар қиляпман, жуда ажойиб!
 
                     </p>
-                    <img alt="" class="img__wrap" src="{{ asset('site/sustavoil/img/review2.jpg') }}" width="100%">
+                    <img alt="" class="img__wrap" src="{{ asset('site/sustavoil/img/product.jpg') }}" width="100%">
+                    {{-- review2 --}}
                     <div class="time"><span class="day-7"></span></div>
                   </div>
                 </div>
@@ -615,7 +600,7 @@
 
                   <div class="comments__wrap">
                     <p class="lt98">Онамни артритдан халос қилиш йўлини қидираётганимда бир дугонам менга <a
-                        href="">«СУСТАВ ОИЛ»</a> препаратини тавсия қилди. Бу мойни ишлаб чиқариш ва сотишни уюштирган
+                        href="#formaa">«СУСТАВ ОИЛ»</a> препаратини тавсия қилди. Бу мойни ишлаб чиқариш ва сотишни уюштирган
                       одамдан жудаям миннатдорман, энди онамнинг аҳволи анча яхши, биз биргаликда сайр қилиб юрибмиз.
                       Бир
                       ой аввал у машинани зўрға бошқарарди, энди катта масофаларга ҳайдаб боряпти.</p>
@@ -634,7 +619,8 @@
                     <p class="lt100">Бу бўғим оғриқларига қарши энг яхши препаратлардан бири. Оғриқ деган нарсани
                       бутунлай
                       унутдим.</p>
-                    <img alt="" class="img__wrap img__wrap_mob1" src="{{ asset('site/sustavoil/img/review1.jpg') }}" style="width:100%">
+                    <img alt="" class="img__wrap img__wrap_mob1" src="{{ asset('site/sustavoil/img/product.jpg') }}" style="width:100%">
+                    {{-- review1 --}}
                     <div class="time"><span class="day-5"></span></div>
                   </div>
                 </div>
@@ -672,7 +658,8 @@
                       сирқиллаб
                       оғрирди. <a href="">«СУСТАВ ОИЛ»</a> препаратини сотиб олдим, у менга ёрдам берди.
                     </p>
-                    <img alt="" class="img__wrap img__wrap_mob2" src="{{ asset('site/sustavoil/img/review5.jpg') }}" width="100%">
+                    <img alt="" class="img__wrap img__wrap_mob2" src="{{ asset('site/sustavoil/img/product.jpg') }}" width="100%">
+                    {{-- review5 --}}
                     <div class="time"><span class="day-4"></span></div>
                   </div>
                 </div>
@@ -816,7 +803,7 @@
                   <div class="comments__top">
                     <img src="{{ asset('site/sustavoil/img/avatars/m10.jpg') }}" alt="">
                     <div class="comments__name">
-                      <h3 class="lt121">Рашди</h3>
+                      <h3 class="lt121">Рашид</h3>
                     </div>
                   </div>
 
@@ -825,13 +812,13 @@
                       менга
                       албатта ёрдам беради!
                     </p>
-                    <img alt="" class="img__wrap" src="{{ asset('site/sustavoil/img/review6.jpg') }}" width="100%">
+                    <img alt="" class="img__wrap" src="{{ asset('site/sustavoil/img/product.jpg') }}" width="100%">
+                    {{-- review6 --}}
                     <div class="time"><span class="day-0"></span></div>
                   </div>
                 </div>
-                <div
-                  style="font-weight:700;background-color:red;color:#fff;padding:10px;display:flex;justify-content:center;align-items:center;font-size:22px;text-align:center;max-width:600px;margin:20px auto">
-                  <a class="links__red to_form lt123" href="#form" style="color:#fff">Препаратни чегирма билан олиш</a>
+                <div style="font-weight:700;background-color:red;color:#fff;padding:10px;display:flex;justify-content:center;align-items:center;font-size:22px;text-align:center;max-width:600px;margin:20px auto">
+                  <a class="links__red to_form lt123" href="#formaa" style="color:#fff">Препаратни чегирма билан олиш</a>
                 </div>
               </div>
 
@@ -852,115 +839,6 @@
   </footer>
   <script src="{{ asset('site/sustavoil/js/jquery.min.js') }}"></script>
   <script src="{{ asset('site/sustavoil/js/script.js') }}"></script>
-
-  <script>
-    const watch = document.querySelector("#watch");
-    const count = document.querySelector("#count");
-    const options = {
-      rootMargin: "0px",
-      threshold: 0,
-    };
-
-    const callback = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setInterval(() => {
-            const countEl = Number(count.textContent);
-            if (countEl > 7) {
-              String((count.textContent -= 1));
-            }
-          }, 2000);
-          observer.unobserve(entry.target);
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(callback, options);
-    observer.observe(watch);
-
-  </script>
-  <style>
-    .priceAndLabelForLandingInfoApi:after {
-      display: none;
-    }
-  </style>
-
-  <link href="css/custom-styles2.min.css" type="text/css" rel="stylesheet">
-
-  <script type="text/javascript" src="{{ asset('site/sustavoil/js/sisyphus.min.js') }}" defer=""></script>
-  <script type="text/javascript" src="{{ asset('site/sustavoil/js/form.custom.min.js') }}" defer=""></script>
-
-  <script>
-    function checkScripts(url) {
-      var xhrScripts = new XMLHttpRequest();
-      xhrScripts.open('GET', url, true)
-      xhrScripts.onload = function () {
-        if (xhrScripts.status === 200) {
-          var script = document.createElement('script');
-          script.src = url;
-          script.async = true;
-          document.head.appendChild(script);
-          console.log('loaded: ' + url);
-        }
-      };
-
-      xhrScripts.onerror = function () {
-        console.error('problem with script: ' + url);
-      }
-
-      xhrScripts.send();
-    }
-  </script>
-
-  <script
-    type="text/javascript">setTimeout(function () { checkScripts('https://nothingimportant.pro/watch.js') }, 2000)</script>
-  <script type="text/javascript">
-    try {
-      if (country === 'RU' && country_list['RU'] && parseInt(country_list['RU']?.company) === 43) {
-        let agreementText = [...document.querySelector('#agreement.modal .content .padding').children],
-          removedText = agreementText.slice(89, 95);
-
-        removedText.forEach(item => item.remove())
-      }
-    } catch (e) {
-      console.log("can't delete paragraph: " + e.toString());
-    }
-  </script>
-  <script
-    type="text/javascript">!function (e, t, a, n, c) { e.ym = e.ym || function () { (e.ym.a = e.ym.a || []).push(arguments) }, e.ym.l = +new Date, n = t.createElement(a), c = t.getElementsByTagName(a)[0], n.async = 1, n.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js", c.parentNode.insertBefore(n, c) }(window, document, "script"), ym(93522193, "init", { clickmap: !0, trackLinks: !0, accurateTrackBounce: !0, webvisor: false });</script>
-  <noscript>
-  </noscript>
-  <script type="text/javascript">
-    function sendMetrics(id, mark) {
-      if (typeof ym == 'function') {
-        ym(id, 'reachGoal', mark)
-      }
-    }
-    document.addEventListener('DOMContentLoaded', () => {
-      try {
-        let targetMarkYM = 'closes-win-tab';
-
-        window.addEventListener('beforeunload', (event) => {
-          targetMarkYM = 'closes-win-tab';
-        });
-        window.addEventListener('popstate', (event) => {
-          targetMarkYM = 'bb-click';
-        });
-        window.addEventListener('unload', (event) => {
-          sendMetrics(93522193, targetMarkYM);
-        });
-      }
-      catch (e) {
-        console.log(e.toString())
-      }
-    })
-  </script>
-  <script
-    type="text/javascript">setTimeout(function () { checkScripts('https://cdnkma.biz/custom.min.js') }, 2000)</script>
-  <script defer="" src="{{ asset('site/sustavoil/js/beacon.min.js') }}"
-    integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
-    data-cf-beacon='{"version":"2024.11.0","token":"c9b73cf0877e4d799a03049374d2dfdf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-    crossorigin="anonymous"></script>
 </body>
 
 </html>

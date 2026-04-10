@@ -1,20 +1,33 @@
 ///////////////////////////////////////////////////////////////////////////////////
-//Scroll
+// Scroll (TO‘G‘RILANGAN)
 ///////////////////////////////////////////////////////////////////////////////////
 function scrollLink() {
 	$(document).ready(function () {
-		$("a:not(.kma-lang-list a,[modal='kmacb-form'], [modal=polit], [modal=agreement], .icon-close)").click(function(e){
-			e.preventDefault();
-			
-			$("html, body").animate({scrollTop:$(".form-button").offset().top - ($(window).height() - $(".form-button").outerHeight(true))},800)
-		 })
+
+		// faqat # bilan boshlanadigan linklar uchun ishlaydi
+		$("a[href^='#']").click(function(e){
+
+			let target = $(this).attr("href");
+
+			// agar element mavjud bo‘lsa
+			if ($(target).length) {
+				e.preventDefault();
+
+				$("html, body").animate({
+					scrollTop: $(target).offset().top
+				}, 800);
+			}
+
+		});
 
 	});
 }
 scrollLink();
 
+///////////////////////////////////////////////////////////////////////////////////
+// Sana
+///////////////////////////////////////////////////////////////////////////////////
 $(function() {
-	var date=new Date();
-	$('.date').text(date.toLocaleString().split(',')[0])
-
-})
+	var date = new Date();
+	$('.date').text(date.toLocaleString().split(',')[0]);
+});

@@ -5,17 +5,17 @@ $(document).ready(function () {
     r = document.querySelectorAll(".door__sales"),
     c =
       (document.querySelector(".door__wrapper"),
-      document.querySelector(".spin-result-wrapper")),
+        document.querySelector(".spin-result-wrapper")),
     i =
       (document.querySelector(".pop-up-button"),
-      document.querySelector(".order_block"),
-      document.getElementById("door__1")),
+        document.querySelector(".order_block"),
+        document.getElementById("door__1")),
     u = document.getElementById("door__2"),
     l = document.getElementById("door__3"),
     s = document.getElementById("door__sales1"),
     a = document.getElementById("door__sales2"),
     d = document.getElementById("door__sales3"),
-    p = "90%  <br><br> ютуқ";
+    p = "90% <br> ютуқ";
 
   function m(e) {
     e.currentTarget.classList.add("open"),
@@ -26,8 +26,8 @@ $(document).ready(function () {
         i.classList.contains("open")
           ? ((s.innerHTML = p), (a.innerHTML = "—"), (d.innerHTML = "—"))
           : u.classList.contains("open")
-          ? ((a.innerHTML = p), (s.innerHTML = "—"), (d.innerHTML = "—"))
-          : l.classList.contains("open") &&
+            ? ((a.innerHTML = p), (s.innerHTML = "—"), (d.innerHTML = "—"))
+            : l.classList.contains("open") &&
             ((s.innerHTML = "—"), (d.innerHTML = p), (a.innerHTML = "—"));
       });
 
